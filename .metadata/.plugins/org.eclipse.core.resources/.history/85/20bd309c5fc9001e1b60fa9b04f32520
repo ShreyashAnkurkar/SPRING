@@ -48,7 +48,6 @@ public class LayeredApplicationTest {
 	        //get the target bean class obj/controller obj
 	        MainController controller=factory.getBean("gcontroller",MainController.class);
 	        
-	        
 	}
 
 }
