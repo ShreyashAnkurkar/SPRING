@@ -4,6 +4,6 @@ import com.sitech.bo.GuestInfoBO;
 
 public interface IguestDAO {
 	
-	public int insert(GuestInfoBO bo);
+	public int insert(GuestInfoBO bo) throws Exception;
 
 }

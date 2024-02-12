@@ -1,0 +1,5 @@
+package com.sitech.dto;
+
+public interface IGuestDAO {
+
+}
