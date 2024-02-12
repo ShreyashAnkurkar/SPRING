@@ -1,0 +1,40 @@
+package com.sitech.test;
+
+import java.util.Scanner;
+
+import com.sitech.vo.GuestinfoVO;
+
+public class LayeredApplicationTest {
+	
+	public static void main(String[] args) {
+		String gname=null,gaddress=null,gContact=null,gDaysToStay=null,gChargePerDay=null;
+		
+		
+		//collect input from user
+		Scanner sc= new Scanner(System.in);
+		if(sc!=null) {
+			System.out.println("Enter guest name");
+			gname=sc.next();
+			
+			System.out.println("Enter guest address");
+			gaddress=sc.next();
+
+			System.out.println("Enter guest contactNo");
+			gContact=sc.next();
+
+			System.out.println("Enter guest No. of days to stays");
+			gDaysToStay=sc.next();
+
+			System.out.println("Enter perday charge");
+			gChargePerDay=sc.next();
+		}
+		//Create Vo Class Object
+		GuestinfoVO vo=new GuestinfoVO();
+		//set The local variables data to vo object
+		vo.setGname(gname);
+		vo.setGaddress(gaddress);
+		vo.setgContact(gContact);
+		
+	}
+
+}

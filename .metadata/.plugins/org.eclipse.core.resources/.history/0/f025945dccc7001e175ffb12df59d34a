@@ -1,0 +1,35 @@
+package com.sitech.test;
+
+import java.util.Scanner;
+
+public class LayeredApplicationTest {
+	
+	public static void main(String[] args) {
+		String gname=null,gaddress=null,gcontact=null,gDaysToStay=null,gChargePerDay=null;
+		
+		
+		//collect input from user
+		Scanner sc= new Scanner(System.in);
+		if(sc!=null) {
+			System.out.println("Enter guest name");
+			gname=sc.next();
+			
+			System.out.println("Enter guest address");
+			gaddress=sc.next();
+
+			System.out.println("Enter guest contactNo");
+			gcontact=sc.next();
+
+			System.out.println("Enter guest No. of days to stays");
+			gDaysToStay=sc.next();
+
+			System.out.println("Enter perday charge");
+			gChargePerDay=sc.next();
+
+			
+			
+		}
+		
+	}
+
+}

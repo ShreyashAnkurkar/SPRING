@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+   <bean id="emp" class="com.sitech.beans.Employees">
+   <constructor-arg name="ename" value="Shyam"></constructor-arg>
+    <constructor-arg name="esalary" value="75000.0"></constructor-arg>
+     <constructor-arg name="ecity" value="nagpur"></constructor-arg>
+      <constructor-arg name="eage" value="35"></constructor-arg>
+   </bean>
+</beans>

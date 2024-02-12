@@ -1,0 +1,10 @@
+package com.sitech.test;
+
+public class StrategyPatternTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.sitech.dao;
+
+import com.sitech.bo.GuestInfoBO;
+
+public class GuestDAOimpl implements IguestDAO {
+
+	public int insert(GuestInfoBO bo) {
+		
+		return 0;
+	}
+
+}

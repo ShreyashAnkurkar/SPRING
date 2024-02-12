@@ -1,0 +1,13 @@
+package com.sitech.dao;
+
+import com.sitech.bo.GuestInfoBO;
+
+public class GuestDAOimpl implements IguestDAO {
+
+	@Override
+	public int insert(GuestInfoBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

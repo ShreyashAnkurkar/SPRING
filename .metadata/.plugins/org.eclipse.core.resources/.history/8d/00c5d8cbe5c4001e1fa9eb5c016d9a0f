@@ -1,0 +1,5 @@
+package com.sitech.test;
+
+public class ConstructorInjectionTest {
+
+}

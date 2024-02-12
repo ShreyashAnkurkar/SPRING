@@ -1,0 +1,5 @@
+package com.sitech.vo;
+
+public class GuestinfoVO {
+
+}
