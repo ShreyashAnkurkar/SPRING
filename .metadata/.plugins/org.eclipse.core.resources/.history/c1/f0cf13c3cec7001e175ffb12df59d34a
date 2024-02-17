@@ -1,8 +1,0 @@
-package com.sitech.service;
-
-public interface Iguestservice {
-	
-	public String registerGuest(guestInfoDTO dto);
-	
-
-}

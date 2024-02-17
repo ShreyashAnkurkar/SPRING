@@ -1,5 +1,0 @@
-package com.sitech.dao;
-
-public interface IguestDAO {
-
-}

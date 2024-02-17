@@ -11,5 +11,11 @@
     </bean>
     <!-- creating child class object using static fACTORY METHOD -->
     <bean id="cal" class="java.util.Calendar" factory-method="getInstance"></bean>
+    <bean id="dm"  class="java.sql.DriverManager" factory-method="getConnection">
+          <constructor-arg value="jdbc:oracle:thin:@localhost:1521:xe"></constructor-arg>
+          <constructor-arg value="system"></constructor-arg>
+          <constructor-arg value="zoro"></constructor-arg>
+        
+    </bean>
 
 </beans>

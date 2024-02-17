@@ -1,5 +1,6 @@
 package com.sitech.test;
 
+import java.sql.Connection;
 import java.util.Calendar;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -18,6 +19,9 @@ public class FactoryMethodTest {
          
          Calendar cal=factory.getBean("cal",Calendar.class);
          System.out.println("Calendar obj data:"+cal.toString()+"\t"+cal.getClass());
+         
+         Connection con= factory.getBean("dm",Connection.class);
+         System.out.println("connection object data:"+con.toString()+"\t"+con.getClass());
 
 	}
 
