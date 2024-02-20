@@ -1,7 +1,0 @@
-package com.sitech.dto;
-
-public interface IGuestDAO {
-	
-	public int insert(GuestInfoBO bo)throws Exception;
-
-}
