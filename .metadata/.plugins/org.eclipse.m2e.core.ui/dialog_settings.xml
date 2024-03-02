@@ -32,6 +32,7 @@
 			<item value="sitech"/>
 		</list>
 		<list key="artifactId">
+			<item value="Springproj9-singletone"/>
 			<item value="springproj8-FactoryMethods"/>
 			<item value="SpringProj7-HotelManagement"/>
 			<item value="proj3-construcctioninjection"/>
