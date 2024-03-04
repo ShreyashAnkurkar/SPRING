@@ -26,18 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.sitech.test"/>
 		</list>
 		<list key="groupId">
-			<item value="sitech"/>
 		</list>
 		<list key="artifactId">
-			<item value="Springproj9-singletone"/>
-			<item value="springproj8-FactoryMethods"/>
-			<item value="SpringProj7-HotelManagement"/>
-			<item value="proj3-construcctioninjection"/>
-			<item value="springproj6"/>
-			<item value="Springproj1-setterinjection"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
